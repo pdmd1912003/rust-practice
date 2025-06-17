@@ -9,6 +9,15 @@ mod ownership_borrowing {
     pub mod ownership;
     pub mod borrowing;
 }
+mod compound_types {
+    pub mod tuple;
+    pub mod array;
+    pub mod slice;
+    pub mod string;
+    pub mod structs;
+    pub mod enums;
+    // pub mod generics;
+}
 fn main() {
     // basic_types::numbers::run1();
     // basic_types::numbers::run2();
@@ -26,5 +35,17 @@ fn main() {
     // basic_types::functions::run2();
     // ownership_borrowing::ownership::run1();
     // ownership_borrowing::ownership::run5();
-    ownership_borrowing::ownership::run8();
+    // ownership_borrowing::ownership::run8();
+    // compound_types::string::run10();
+    // compound_types::array::run2();
+    // compound_types::array::run3();
+    // compound_types::slice::run1();
+    // compound_types::slice::run3();
+    // compound_types::tuple::run2();
+    // compound_types::structs::run3();
+    compound_types::enums::run1();
+    compound_types::enums::run2();
+    compound_types::enums::run3();
+    compound_types::enums::run4();
+
 }
