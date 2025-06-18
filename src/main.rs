@@ -1,4 +1,5 @@
 mod variables;
+mod flow_control;
 mod basic_types{
     pub mod numbers;
     pub mod char_bool_unit;
@@ -43,9 +44,9 @@ fn main() {
     // compound_types::slice::run3();
     // compound_types::tuple::run2();
     // compound_types::structs::run3();
-    compound_types::enums::run1();
-    compound_types::enums::run2();
-    compound_types::enums::run3();
-    compound_types::enums::run4();
+    // compound_types::enums::run1();
+    // compound_types::enums::run2();
+    // compound_types::enums::run3();
+    // compound_types::enums::run4();
 
 }
