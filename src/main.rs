@@ -19,6 +19,10 @@ mod compound_types {
     pub mod enums;
     // pub mod generics;
 }
+
+mod partten_match{
+    pub mod matches;
+}
 fn main() {
     // basic_types::numbers::run1();
     // basic_types::numbers::run2();
@@ -48,5 +52,5 @@ fn main() {
     // compound_types::enums::run2();
     // compound_types::enums::run3();
     // compound_types::enums::run4();
-
+    partten_match::matches::run5();
 }
